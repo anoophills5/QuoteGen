@@ -1,0 +1,2 @@
+# QuoteGen
+Generate random quotes
