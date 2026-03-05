@@ -1,0 +1,44 @@
+body{
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial;
+      background: #1e1e2f;
+}
+
+.card{
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      width: 400px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+#title{
+      margin-bottom: 30px;
+      transition: opacity 0.4s ease;
+}
+
+.buttons{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+}
+
+button{
+      padding: 10px 20px;
+      border: none;
+      border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+  background:#4D96FF;
+  color:white;
+}
+
+button:hover{
+  background:#3b7de0;
+}
+
